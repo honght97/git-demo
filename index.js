@@ -3,5 +3,6 @@ const Cat = require('./Cat');
 
 const dog = new Dog('Tom');
 const tom = new Cat('Tom');
-dog.eat(tom);
 dog.sayHi();
+dog.eat(tom);
+console.log(dog);
