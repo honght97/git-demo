@@ -2,6 +2,7 @@ const Dog = require('./Dog');
 const Cat = require('./Cat');
 const Mouse = require('./Mouse');
 
+
 const cat = new Cat('Tom');
 const mouse = new Mouse('jerry');
 const dog = new Dog('Dau');
@@ -11,5 +12,4 @@ try {
 }catch(err) {
     console.log('Error while cat eating a dog');
 }
-
 console.log(cat);
